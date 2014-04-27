@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve function tries to retrieve the already stored inverse matrix, if any. If not, computes and 
-## store the result for furture resference
+## store the result for furture reference
 
 cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
